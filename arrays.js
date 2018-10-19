@@ -8,7 +8,7 @@ function destructivelyAddElementToBeginningOfArray(array , element) {
   return array;
 }
 function addElementToEndOfArray(array , element) {
-  var newArr = [element, ...array];
+  var newArr = [...array, element];
   return newArr;
 }
 function destructivelyAddElementToEndOfArray(array , element) {
